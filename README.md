@@ -193,6 +193,7 @@ Classic SAS editor display manager commands. Keywords: sas sql join merge big da
        unmark unmark all
        tabs
        redo
+       undo cntrl z
        nums on/off
        keys
        fse
