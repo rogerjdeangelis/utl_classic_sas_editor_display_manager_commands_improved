@@ -173,6 +173,7 @@ scripting
    CAPS on/off
    home
    cursor
+   curpos
    nums on/off
    %let
    vt
@@ -184,6 +185,7 @@ scripting
    unmark unmark all
    tabs
    redo
+   undo  cntrl z
    nums on/off
    keys
    fse
