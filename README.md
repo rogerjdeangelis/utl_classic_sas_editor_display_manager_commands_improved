@@ -181,6 +181,7 @@ Classic SAS editor display manager commands. Keywords: sas sql join merge big da
        CAPS on/off
        home
        cursor
+       curpos
        nums on/off
        %let
        vt
