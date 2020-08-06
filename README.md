@@ -53,7 +53,7 @@ Classic SAS editor display manager commands. Keywords: sas sql join merge big da
 
        Very fast point and shoot editing and code submit classic SAS editor.
 
-       suppose you have submit highlighted code using just the right mouse key.
+       suppose you want to submit highlighted code using just the right mouse key.
        (extremely fast becase left had is over alt key and right is on mouse)
 
        Use the ALT key as you hold down the mouse button and drag the mouse
