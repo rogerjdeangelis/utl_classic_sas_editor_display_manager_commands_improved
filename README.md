@@ -128,6 +128,7 @@ Classic SAS editor display manager commands. Keywords: sas sql join merge big da
        ?          - previous command history IMPORTANT - asked SAS many years ago to add history
 
        subtop     - submit top line of editor
+       subtop n   -submit top n lines
        bounds 1 64 -
        icon
        rchange    - change on function key hit
