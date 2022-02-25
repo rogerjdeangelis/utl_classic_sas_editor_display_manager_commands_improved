@@ -198,6 +198,34 @@ scripting
    vt
    print
    copy profile.it.source profile.it1.source
+   
+   CHINSERT     Toggles insert mode.                                                                
+CURSORDOWN   Moves the cursor down.                                                              
+CURSORLEFT   Moves the cursor left.                                                              
+CURSORRIGHT  Moves the cursor right.                                                             
+CURSORUP     Moves the cursor up.                                                                
+DELCHAR      Deletes the character at the cursor location.                                       
+DELLINE      Deletes all characters on the current line.                                         
+DELPCHAR     Deletes the character to the left of the cursor.                                    
+DELTOEOL     Deletes all characters to the end of the line.                                      
+DELWORD      Deletes the word under the cursor.                                                  
+             KP_NUMERIC Puts the application keypad into numeric mode.                           
+             Numeric mode is convenient to use in data entry where numbers are involved.         
+             The KP_APPLICATION command returns the keypad to application mode,                  
+             so that the keypad keys resume their functionality listed in the KEYS window.       
+             You can issue this command from the command line.                                   
+MOVEBOL      Moves to the beginning of the line.                                                 
+MOVEEOL      Moves to the end of the line.                                                       
+NEWLINE      If there is a command on the command line, NEWLINE executes it;                     
+             otherwise, the cursor moves to the beginning of the next line                       
+             (equivalent to a carriage return).                                                  
+NEXTFIELD    Moves to the next field. This command does not move the cursor                      
+             from the command line; use the HOME (CTRL-F) command to move from the command line. 
+NEXTWORD     Moves to the next word.                                                             
+PREVFIELD    Moves to the previous field. This command does not move the cursor from             
+             the command line; use the HOME (CTRL-F) command to move from the command line.      
+PREVWORD      Moves to the previous word.                                                        
+
 
 If you have classic SAS then you have an operating system
 (enhanced and super enhanced editors do not an operating system)
