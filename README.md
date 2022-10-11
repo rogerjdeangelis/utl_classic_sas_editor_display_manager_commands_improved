@@ -24,7 +24,8 @@ Classic SAS editor display manager commands. Keywords: sas sql join merge big da
        3.  c roger mary in lines signature * test under condition (c roger mary in 1:10/)
        4.  Also fix the 'ignore valuable data' setting
        5.  More stable sasuser.profile
-
+       6. Fix the inconsistent :tf command (trxt flow)
+       7. Bring bacl the cursor and curpos command
 
       Example command line functionality
 
