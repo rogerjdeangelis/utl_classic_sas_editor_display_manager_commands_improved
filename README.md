@@ -29,12 +29,12 @@ Classic SAS editor display manager commands. Keywords: sas sql join merge big da
        3.  c roger mary in lines signature * test under condition (c roger mary in 1:10/)
        4.  Also fix the 'ignore valuable data' setting
        5.  More stable sasuser.profile
-       6. Fix the inconsistent :tf command (trxt flow)
-       7. Bring bacl the cursor and curpos command
+       6. Fix the inconsistent :tf command (trxt flow) fixed in M7
+       7. Bring back the cursor and curpos command
 
       Example command line functionality
 
-        X
+        x       shell out       
         STORE  * purposely disabled in all subsequent editors?
                * Store highlighted text in clipbrd.
                * You can  operate on text saved in clipboard using commands like 'debugHighlightedMacro'
@@ -182,7 +182,7 @@ Classic SAS editor display manager commands. Keywords: sas sql join merge big da
     scripting
 
        store    * disabled in all future editors (load and store are critical instructions)
-       zoom z
+       zoom Z (use resize if zoom fails)
        up 2
        down 4
        CAPS on/off
@@ -355,7 +355,7 @@ Classic SAS editor display manager commands. Keywords: sas sql join merge big da
     WUNDO
     WVSBAR
     WWINDOWBAR
-    ZOOM
+    ZOOM (use rsize if zoom fails)
 
 
 
